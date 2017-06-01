@@ -1,0 +1,43 @@
+html, body { 
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    background-color: black;
+}
+
+h1, p {
+    color: #FFFFFF;
+	text-align: center;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+#reply_comment{
+	color: white;
+}
+
+button{
+	height:20px; 
+    width:180px; 
+    margin: -20px -90px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+
+}
+

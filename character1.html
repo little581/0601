@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--收下吧！-->
+<html>
+<head>
+	<title>Chacter1-應徵</title>
+	<link rel="stylesheet" type="text/css" href="Chacter_style.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+
+</head>
+<body>
+	<div id="result">
+		<img id="loading" src="./images/loading.gif">
+		<h4></h4>
+	</div>
+	<h1>-喬斯達不動產-</h1>
+	<p>&nbsp;</p>
+	<div id="com">
+		<p></p>
+	</div>
+		<p></p>
+	<div class="player">
+		<div class="pla slides fade" id="p1"><p></p></div>
+		<div class="pla slides fade" id="p2"><p></p></div>
+		<div class="pla slides fade" id="p3"><p></p></div>
+		
+	</div>
+
+  	
+	<script type="text/javascript">
+		document.onreadystatechange = function () {
+			if (document.readyState == "complete") {
+				console.log("the html is ready");
+				document.getElementById('loading').style.display = 'none';
+			}
+		}
+	</script>
+
+	<audio id="audio" src="./voices/News.wav" autostart="false" ></audio>
+	<audio id="audio2" src="./voices/click.wav" autostart="false" ></audio>
+
+	<script type="text/javascript" src="./c1.js"></script>
+
+</body>
+</html>
